@@ -50,13 +50,20 @@
             color: white;
         }
 
+        .flex-container {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center
+
+        }
+
       </style>
    </head>
 
    <body>
-       <nav class="navbar" style="position: relative;width: 100%/* display: flex; *//* justify-content:
-       space-between; */-between;">
-           <img src="#" style="position: absolute;z-index: 1;">
+       <nav class="navbar">
+           <img src="#">Logo</img>
            <div class="topnav">
                 <a class="#" href="#buy">Right Buy Button</a>
                 <a class="#" href="#text-size">Toggle Text Size Button</a> <!-- Clicking this should dynamically swap view modes-->
@@ -82,6 +89,7 @@
                 culpa qui officia deserunt mollit anim id est laborum.
             </p>
 
+        <div class="flex-container">    
             <div id="object-highlighting">
                 <h2>Object Highlighting</h2>
                 <iframe width="840" height="630" 
@@ -101,6 +109,7 @@
                     dolore magnam aliquam quaerat voluptatem.
                 </p>
             </div>
+        </div>    
 
             <div id="ui-scaling">
                 <h2>UI Scaling</h2>
