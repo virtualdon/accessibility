@@ -1,0 +1,134 @@
+<html>
+   <head>
+      <title>Subnautica: Below Zero Accessibility Features</title>
+      <style>
+
+        .responsive-img {
+            width:200px; 
+            height:200px;
+        }
+
+        .right {
+            float: right;
+        }
+
+        .left {
+            float: left;
+        }
+
+        .topnav {
+            background-color: #6dcff6;
+            overflow: hidden;
+        }
+
+        .topnav a {
+            float: right;
+            color: #ffffff;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+
+        .hero-image {
+  
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://i.imgur.com/6EWpQfb.jpg");
+            height: 50%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+        }
+
+
+        .hero-text {
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+        }
+
+        .flex-container {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center
+        }
+
+      </style>
+   </head>
+
+   <body>
+       <nav class="navbar">
+           <img src="#">Logo</img>
+           <div class="topnav">
+                <a class="#" href="#buy">Right Buy Button</a>
+                <a class="#" href="#text-size">Toggle Text Size Button</a> <!-- Clicking this should dynamically swap view modes-->
+                <a class="#" href="#light-dark">Toggle Light/Dark Mode Button</a> <!-- Clicking this should dynamically swap view modes-->
+           <div>
+        </nav>
+
+        <div class="hero-image">
+            <div class="hero-text">
+                 <h1>Subnautica: Below Zero</h1>
+                 <p>Accessibility Features</p>
+            </div>
+        </div>
+
+        <div id="main">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim 
+                ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
+                aliquip ex ea commodo consequat. Duis aute irure dolor in 
+                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
+                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
+                culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+   
+            <div id="object-highlighting">
+                <h2>Object Highlighting</h2>
+                <iframe width="840" height="630" 
+                    src="https://www.youtube.com/embed/gdZLi9oWNZg">
+                </iframe>
+        <div class="flex-container">         
+                <img src="https://i.imgur.com/sDGVd6x.jpeg" alt="Alt text" 
+                    class="responsive-img right">
+                <p>
+                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem 
+                    accusantium doloremque laudantium, totam rem aperiam, eaque ipsa 
+                    quae ab illo inventore veritatis et quasi architecto beatae vitae 
+                    dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit 
+                    aspernatur aut odit aut fugit, sed quia consequuntur magni dolores 
+                    eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est,
+                    qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
+                    sed quia non numquam eius modi tempora incidunt ut labore et 
+                    dolore magnam aliquam quaerat voluptatem.
+                </p>
+            </div>
+        </div>    
+
+            <div id="ui-scaling">
+                <h2>UI Scaling</h2>
+                <iframe width="840" height="630" 
+                    src="https://www.youtube.com/embed/gdZLi9oWNZg">
+                </iframe>
+                <img src="https://i.imgur.com/sDGVd6x.jpeg" alt="Alt text" 
+                    class="responsive-img left">
+                <p>
+                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem 
+                    accusantium doloremque laudantium, totam rem aperiam, eaque ipsa 
+                    quae ab illo inventore veritatis et quasi architecto beatae vitae 
+                    dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit 
+                    aspernatur aut odit aut fugit, sed quia consequuntur magni dolores 
+                    eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est,
+                    qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
+                    sed quia non numquam eius modi tempora incidunt ut labore et dolore
+                    magnam aliquam quaerat voluptatem.
+                </p>
+            </div>
+        </div>
+    </body>
+</html>
